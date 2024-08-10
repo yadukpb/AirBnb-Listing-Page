@@ -19,7 +19,7 @@ const PriceDetails = ({ checkInDate, checkOutDate, nights }) => {
         <span className="text-green-600">-₹{weeklyDiscount}</span>
       </div>
       <div className="flex justify-between mt-2">
-        <a href="#" className="text-black underline">
+        <a href="/somelink" className="text-black underline">
           Airbnb service fee
         </a>
         <span>₹{serviceFee}</span>

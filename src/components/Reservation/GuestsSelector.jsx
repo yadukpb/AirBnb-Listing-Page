@@ -71,7 +71,7 @@ const GuestsSelector = ({
           <GuestItem
             title="Pets"
             description={
-              <a href="#" className="underline">
+              <a href="/some-link" className="underline">
                 Bringing a service animal?
               </a>
             }
