@@ -28,12 +28,12 @@ const ImageGallery = () => {
       
       <div className="grid grid-cols-4 grid-rows-2 gap-2 h-[500px]">
         <div className="col-span-2 row-span-2 relative group">
-          <img src={images[0]} alt="Main view of the camp site" className="w-full h-full object-cover rounded-lg transition-transform duration-300" />
+          <img src={images[0]} alt="Main view of the campsite" className="w-full h-full object-cover rounded-lg transition-transform duration-300" />
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 rounded-lg transition-opacity duration-300 pointer-events-none"></div>
         </div>
         {images.slice(1).map((src, index) => (
           <div key={index} className="relative group">
-            <img src={src} alt={`Camp site image ${index + 2}`} className="w-full h-full object-cover rounded-lg transition-transform duration-300" />
+            <img src={src} alt={`Campsite view ${index + 2}`} className="w-full h-full object-cover rounded-lg transition-transform duration-300" />
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 rounded-lg transition-opacity duration-300 pointer-events-none"></div>
             {index === 3 && (
               <button className="absolute bottom-4 right-4 bg-white text-black px-4 py-2 rounded-lg flex items-center space-x-2 shadow-md">
